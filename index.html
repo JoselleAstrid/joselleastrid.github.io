@@ -27,26 +27,32 @@ a:active {
 
 <body>
 
-<h1>LINKS</h1>
+<h1>LINKS & CONTACT</h1>
+
+* = Recommended places to message me
 
 <ul>
-  <li><a href="https://twitter.com/joselle_astrid">Twitter</a></li>
   <li>YouTube
     <ul>
-      <li><a href="https://www.youtube.com/channel/UCBVDpRSSQHSiKpqCy73ZYVg">Research</a></li>
-      <li><a href="https://www.youtube.com/channel/UCrKo_4_DhWn6VgTqpCtwbDg">Runs</a></li>
-      <li><a href="https://www.youtube.com/channel/UCIG9vtbdIb1sb5Xla5IS2fw">Side B</a></li>
+      <li><a href="https://www.youtube.com/channel/UCBVDpRSSQHSiKpqCy73ZYVg">Research channel</a></li>
+      <li><a href="https://www.youtube.com/channel/UCrKo_4_DhWn6VgTqpCtwbDg">Runs channel</a></li>
+      <li><a href="https://www.youtube.com/channel/UCIG9vtbdIb1sb5Xla5IS2fw">Side B channel (more casual/unpolished)</a></li>
     </ul>
   </li>
   <li><a href="https://www.twitch.tv/joselle_a/">Twitch</a></li>
+  <li><a href="https://github.com/JoselleAstrid">GitHub</a></li>
+  <li>Discord: Joselle#8409 *
   <li><a href="https://www.speedrun.com/joselle_astrid/">Speedrun.com</a></li>
+  <li><a href="https://hachyderm.io/@joselle_astrid">Mastodon</a> *</li>
+  <li><a href="https://cohost.org/joselle-astrid">Cohost</a></li>
+  <li><a href="https://twitter.com/joselle_astrid">Twitter</a> - I hope to not use this much anymore, but I have a lot of history here.</li>
 </ul>
 
 
 
 <h1>PROJECTS</h1>
 
-<p>Here's a list of coding projects, research summaries, and other resources that I've created or co-created.</p>
+<p>Here's a list of game-related coding projects, research summaries, and other resources that I've created or co-created.</p>
 
 <h2>General</h2>
 
@@ -55,20 +61,20 @@ a:active {
   <dd>Mostly for Gamecube/Wii games running in Dolphin emulator. This includes the Lua scripts that I use to look into GX and Galaxy's mechanics.</dd>
 
   <dt><a href="https://github.com/joselleastrid/game-notes">Game notes</a></dt>
-  <dd>Notes on various games that I wanted to share which didn't fit anywhere else.</dd>
+  <dd>Notes on various games which didn't fit anywhere else. Includes a Pikmin 3 Deluxe speedrun guide, and an article on AX/GX mechanics.</dd>
 </dl>
 
-<h2>F-Zero GX</h2>
+<h2>F-Zero GX/AX</h2>
 
 <dl>
   <dt><a href="https://github.com/joselleastrid/fzerogx-docs/">fzerogx-docs on GitHub</a></dt>
   <dd>Topics include <a href="https://github.com/joselleastrid/fzerogx-docs/blob/master/checkpoints/index.md">checkpoints</a> and <a href="https://github.com/joselleastrid/fzerogx-docs/blob/master/flying/index.md">spaceflying</a>, <a href="https://github.com/joselleastrid/fzerogx-docs/blob/master/mechanics/cpus.md">CPU rubberbanding</a>, the <a href="https://github.com/joselleastrid/fzerogx-docs/blob/master/file_formats/gci_replay.md">replay file format</a>, and <a href="https://github.com/joselleastrid/fzerogx-docs/blob/master/addresses/index.md">known memory addresses</a>. I may merge some of the below resources into this repository, but haven't done so at this time of writing.</dd>
 
-  <dt><a href="https://docs.google.com/spreadsheets/d/17DqpOEgzh0RqSKZ-5q5kanhI3uRhQ6w0xo4GTJO5cQI/edit">Machines vs. Staff Ghosts spreadsheet</a></dt>
-  <dd>The best known times on each track with each non-custom machine. Shows how many machines can beat each staff ghost. The color indicators and ranking tabs work using Javascript. Coded by me, updated by various people. The original idea was based on an F-Zero X competition spreadsheet by darkeye.</dd>
+  <dt><a href="https://docs.google.com/spreadsheets/d/1qthIWAS9t3-Te2IF82gJga-VhLLrvq8hX_kPwiyuwyM/edit">Machines vs. Staff Ghosts spreadsheet</a></dt>
+  <dd>This started in 2013 as a spreadsheet showing the best known Max Speed times for each of the 41 non-custom machines. Now it includes custom machines, as well as other categories (in separate spreadsheets). As of 2022, the color indicators, ranking tabs, and part of the update logic works using a Google Apps Script that I coded; the rest of the update logic works using formula-based external spreadsheets, created and managed by AKC12. The directory of runs is updated by various people. The original idea was based on an F-Zero X competition spreadsheet made by darkeye in 2012.</dd>
 
   <dt><a href="https://docs.google.com/spreadsheets/d/133Xsq-KV3lpfk9SS4_L84WV-JuXHOR8_GlFZRnskkSU/edit?usp=sharing">Machines' internal stats</a></dt>
-  <dd>The internal stats of non-custom machines and custom parts. "Body, boost, and grip" doesn't come close to the whole story; there are over 20 different stats! This stat research contributed to the development of game mods such as GX Unleashed and GXtreme.</dd>
+  <dd>The internal stats of non-custom machines and custom parts. "Body, boost, and grip" doesn't come close to the whole story; there are over 20 different stats! This stat research contributed to the development of game mods such as GX Unleashed and GXtreme. I created the spreadsheet, while AKC12 now manages it and has made some updates.</dd>
 
   <dt><a href="https://www.youtube.com/watch?v=XgIrJ5ojB6s">Spaceflying live demo</a></dt>
   <dd>Done for an FZC marathon. Not very well prepared, but it's the only video explanation I have on checkpoints so far.</dd>
@@ -88,18 +94,21 @@ a:active {
   <dt><a href="https://docs.google.com/document/d/1lhPvUVT9MO0J5U-bF9S9y3okGtPYD7UGvXNMCctJ3-4/edit?usp=sharing">Controller calibration</a></dt>
   <dd>How GX's controller calibration works. The calibration on a fresh savefile is different from the default calibration shown when you enter the calibration menu.</dd>
 
-  <dt><a href="https://tcrf.net/F-Zero_GX/Regional_Differences#Exclusive_Custom_Parts">Special custom parts</a></dt>
-  <dd>The 15 custom-machine parts that everyone uses cheats to get nowadays. Most of them were only available for a limited time at events and kiosks in Japan. Info is from the official GX/AX website.</dd>
+  <dt><a href="https://tcrf.net/F-Zero_GX/Regional_Differences#Exclusive_Custom_Parts">Special custom parts history</a></dt>
+  <dd>Explains the history behind the 15 custom-machine parts that everyone uses cheats to get nowadays. Most of them were only available for a limited time at events and kiosks in Japan. Info is from the Japanese official GX/AX website.</dd>
 
-  <dt><a href="https://ln.sync.com/dl/2159e3d90#b8gau38r-4eixypk7-xtbuizk7-gjau7752">Some uploaded replay files</a></dt>
+  <dt><a href="https://ln.sync.com/dl/2159e3d90#b8gau38r-4eixypk7-xtbuizk7-gjau7752">Some of my time attack replay files</a></dt>
   <dd>Extracted using Wii Homebrew and GCMM. You can load these files on your Wii or on Dolphin to play them.</dd>
+
+  <dt><a href="https://www.youtube.com/watch?v=TC07KEB7K0g">AX T-Drift video tutorial</a></dt>
+  <dd>A guide covering the T-drift technique, which only works in AX, not GX (the two games have different physics).</dd>
 </dl>
 
 <h2>Super Mario Galaxy 1 and 2 </h2>
 
 <dl>
   <dt><a href="https://www.youtube.com/playlist?list=PLyMlBXKUxH72PK-ty1Du7JxxOnUcUM74u">Mechanics videos</a></dt>
-  <dd>Topics include differing height of Wiimote and Nunchuk spins, residual tilt affecting jump height in SMG1, and timing properties of notification boxes after finishing a level.</dd>
+  <dd>Topics include differing height of Wiimote and Nunchuk spins, residual tilt affecting jump height in SMG1, mechanics of SMG1 water spins, and timing properties of notification boxes after finishing a level.</dd>
 
   <dt><a href="https://docs.google.com/document/d/1Se76mcQjJtO-A5aCscW1z2SmeheoMkDxnoeNxnxZQNc/edit?usp=sharing">Speed, distance, and timing info</a></dt>
   <dd>A summary of speed/distance/timing numbers, including ones not covered in any videos yet. Also has links to in-depth documents, covering topics like run speed and acceleration, Yoshi flutter speed, and midair rock spins.</dd>
